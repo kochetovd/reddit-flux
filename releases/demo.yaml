@@ -1,0 +1,31 @@
+---
+apiVersion: helm.fluxcd.io/v1
+---
+kind: HelmRelease
+metadata:
+  name: demo
+  namespace: demo
+  annotations:
+    fluxcd.io/tag.comment: semver:~0.1
+    fluxcd.io/tag.post: semver:~0.1
+    fluxcd.io/tag.ui: semver:~0.2
+    fluxcd.io/automated: 'true'
+spec:
+  releaseName: demo
+  chart:
+    git: git@github.com:kochetovd/reddit-flux
+    ref: master
+    path: charts/
+  values:
+    ui:
+      image:
+        repository: dkochetov/ui
+        tag: 0.2.3
+    post:
+      image:
+        repository: dkochetov/post
+        tag: 0.1.1
+    comment:
+      image:
+        repository: dkochetov/comment
+        tag: 0.1.1
