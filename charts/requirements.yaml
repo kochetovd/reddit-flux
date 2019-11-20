@@ -3,6 +3,7 @@ dependencies:
   - name: ui
     version: 1.0.0
     repository: https://raw.githubusercontent.com/kochetovd/helm-charts-hw/master
+
   - name: post
     version: 1.0.0
     repository: https://raw.githubusercontent.com/kochetovd/helm-charts-hw/master

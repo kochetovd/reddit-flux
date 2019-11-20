@@ -1,14 +1,14 @@
 ---
 comment:
   image:
-    repository: czm41k/comment
-    tag: latest
+    repository: kochetovd/comment
+    tag: 0.1.1
   service:
     externalPort: 9292
 
 post:
   image:
-    repository: czm41k/post
+    repository: kochetovd/post
     tag: 0.1.1
   service:
     externalPort: 5000
