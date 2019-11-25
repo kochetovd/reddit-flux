@@ -5,6 +5,5 @@ description: Demo
 maintainers:
   - name: kochetovd
     email: d.kochetov@initlab.ru
-apiVersion: v1
 appVersion: 1.1
 ...
