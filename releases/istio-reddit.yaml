@@ -19,7 +19,7 @@ spec:
     ui:
       image:
         repository: dkochetov/ui
-        tag: 0.2.5
+        tag: 0.2.6
     post:
       image:
         repository: dkochetov/post
