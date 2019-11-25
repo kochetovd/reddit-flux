@@ -1,7 +1,7 @@
 dependencies:
 - name: ui
   repository: https://raw.githubusercontent.com/kochetovd/helm-charts-hw/master
-  version: 1.1.1
+  version: 1.1.2
 - name: post
   repository: https://raw.githubusercontent.com/kochetovd/helm-charts-hw/master
   version: 1.1.1
@@ -11,5 +11,5 @@ dependencies:
 - name: mongodb
   repository: https://kubernetes-charts.storage.googleapis.com
   version: 0.4.18
-digest: sha256:1305eddee706d4e34efaf3ba7a6e13e31e82827bd171395c0e51f80342937889
-generated: "2019-11-25T12:23:54.920738456+03:00"
+digest: sha256:2329a99ca8c7673a3ccbb3aa5c484daf0700001681ce6b1ad3d5f7aba77699d4
+generated: "2019-11-25T13:00:01.878335632+03:00"
